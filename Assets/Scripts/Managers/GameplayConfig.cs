@@ -1,5 +1,6 @@
 ﻿using DataContainers;
 using Managers;
+using Settings;
 using StateMachine;
 using System.Collections;
 using System.Collections.Generic;
