@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3caf0e1d1ae6f0041b6ac97cff73f657, type: 3}
-  m_Name: Config_Global
+  m_Script: {fileID: 11500000, guid: 6330f6a170538f84d809905236f83cde, type: 3}
+  m_Name: Manager_UI
   m_EditorClassIdentifier: 
-  AllPluggableTransforms: {fileID: 0}
-  themeUI: {fileID: 0}
+  n: 30
+  currentTheme: {fileID: 11400000, guid: 4d56fa55bf7f5684688346044b1b462c, type: 2}
+  overrideTheme: {fileID: 0}
+  themes: []

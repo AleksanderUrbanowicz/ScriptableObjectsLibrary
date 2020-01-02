@@ -3,7 +3,7 @@
 
 namespace UI
 {
-    [CreateAssetMenu(fileName = "ThemeUIData", menuName = "ScriptableSystems/UI System/Theme UI Data")]
+    [CreateAssetMenu(fileName = "ThemeUI_", menuName = "ScriptableSystems/UI System/Theme UI Data")]
 
     public class ThemeUIData : ScriptableObject
     {

@@ -10,14 +10,14 @@ namespace Managers
       //  public RaycastExecutor raycastExecutor;
         public RaycastData raycastData;
         //  public BoolEventListener hitMissListeners;
-
+        public int n = 3;
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         public static void BeforeSceneLoad() { CreateSingletonInstance(); }
 
         public void Init()
         {
-            Debug.Log(GetType().Name + " Init.");
-
+            Debug.Log(GetType().Name + " Init."+ SingletonSelectManager.Instance.name);
+            n++;
         }
 
 
@@ -25,8 +25,8 @@ namespace Managers
         public override void MonoBehaviourAwake()
         {
             Debug.Log(GetType().Name + " Awake.");
-
-           // Init();
+            n++;
+            Init();
         }
 
         public void InitEventListeners()
@@ -56,8 +56,7 @@ namespace Managers
 
 
         }
-        //protected // static MonoBehaviour _MonoBehaviour;
-       // public  static void CreateSingletonInstance() { ScriptableMonoBehaviour i = Instance; }
+        
 
     }
 }

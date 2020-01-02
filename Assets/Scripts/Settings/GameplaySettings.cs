@@ -10,6 +10,11 @@ namespace Settings
     [Serializable]
     public class GameplaySettings : ScriptableObject
     {
-        public int i = 19;
+        public int i = 0;
+
+        private void OnEnable()
+        {
+            i++;
+        }
     }
 }

@@ -14,6 +14,13 @@ namespace Configs
     public TransformRuntimeCollection AllPluggableTransforms;
     public UI.ThemeUIData themeUI;
         public GameplaySettings gameplaySettings;
- 
-}
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+       public static void BeforeSceneLoad() { CreateSingletonInstance(); }
+
+        public void Init()
+        {
+            Debug.Log(GetType().Name + " Init.");
+
+        }
+    }
 }

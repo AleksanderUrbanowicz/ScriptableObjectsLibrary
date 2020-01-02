@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6330f6a170538f84d809905236f83cde, type: 3}
-  m_Name: Manager_UI
+  m_Script: {fileID: 11500000, guid: 0e4fe1b9ad72a794eaa06f1bec6cbb30, type: 3}
+  m_Name: New Transform Runtime Collection
   m_EditorClassIdentifier: 
-  themeUI: {fileID: 0}
+  Items: []
