@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UI;
 using UnityEngine;
 
-namespace DataContainers {
+namespace Data {
     
     public interface IEnumValue 
 {

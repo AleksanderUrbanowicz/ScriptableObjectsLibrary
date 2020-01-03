@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace DataContainers
+namespace Data
 {
     [CreateAssetMenu]
 

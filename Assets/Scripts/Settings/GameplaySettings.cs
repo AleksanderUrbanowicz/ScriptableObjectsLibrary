@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Settings
+namespace Data
 {
     [CreateAssetMenu(fileName = "GameSettings", menuName = "Settings/GameSettings")]
 

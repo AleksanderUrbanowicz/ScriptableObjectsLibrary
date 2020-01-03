@@ -1,4 +1,4 @@
-﻿using Configs;
+﻿using Data;
 using Managers;
 using UnityEngine;
 

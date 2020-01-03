@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Managers.MonoBehaviourHookup" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\MonoBehaviourHookup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Managers.ScriptableMonoBehaviour" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAiAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\ScriptableMonoBehaviour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Settings.GameplaySettings" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Settings\GameplaySettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.Transition" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\Transition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.ThemeColorVariant" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAgAAAAAAAAAAEAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Base\ThemeColorVariant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UI.ThemeInfoEnumValue" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAERAAAAAAAAAAAAAAAACAAQgAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Base\ThemeInfoEnumValue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UI.ThemeTextRole" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAgAAAAAAgAAgAAACAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Base\ThemeTextRole.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UI.ThemeUI" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAAAAgAAACAAAACgAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\Base\ThemeUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.UITheme" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAEAAAAAAAAAACCAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Base\UITheme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.ThemedImage" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAgAEAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ThemedControls\ThemedImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.ThemeUIButton" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAFAAAAAAAABAIAAAAACEAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ThemedControls\ThemeUIButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.ThemeUIPanel" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ThemedControls\ThemeUIPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.ThemeUISlider" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAEAAABAAAAAAAIACAAAAAAAAAAAEAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ThemedControls\ThemeUISlider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.ThemeInfoType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAEAAAgAAAAAAAAAAEAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\ThemeInfoType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UI.ThemeUIData" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAACwA=</HashCode>
+      <FileName>Assets\Scripts\UI\ThemeUIData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DataContainers.IEnumType" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DataContainers\IEnumType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataContainers.IEnumValue" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DataContainers\IEnumValue.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UI.IThemedColor" Collapsed="true">
+    <Position X="12.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Base\IThemedColor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UI.IThemedFont" Collapsed="true">
+    <Position X="15.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Base\IThemedFont.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UI.IThemedSprite" Collapsed="true">
+    <Position X="9.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Base\IThemedSprite.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

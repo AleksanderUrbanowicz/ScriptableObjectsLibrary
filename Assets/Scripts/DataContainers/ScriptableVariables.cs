@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace DataContainers
+namespace Data
 {
     [CreateAssetMenu(fileName = "ScriptableFloat", menuName = "Data/Collections/Scriptable Float")]
     public class ScriptableFloat : ScriptableObject

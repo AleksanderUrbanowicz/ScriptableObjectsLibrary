@@ -1,10 +1,10 @@
-﻿using DataContainers;
+﻿using Data;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-namespace DataContainers
+namespace Data
 {
     [Serializable]
     public class ScriptableEnums<T, U>  where T : IEnumValue where U : ScriptableObject, IEnumType

@@ -1,4 +1,4 @@
-﻿using DataContainers;
+﻿using Data;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +11,8 @@ namespace UI
         public List<IEnumValue> values = new List<IEnumValue>();
         public List<ThemeInfoEnumValue> infoVals;
         public List<ThemeInfoType> infoTypes;
-        // public List<ThemeInfoEnumValue> infoTypeDatas;
-        // public List<ThemeColorVariantData> themeColorVariantData;
-        // public ScriptableEnums<ThemeInfoEnumValue, ThemeInfoType> scriptableEnums;
-        // public ScriptableEnums<ThemeColorVariantData,ThemeColorVariant> themeColorVariants;
+        // Color Varoant
+        //Text Role, ImageRole. informat type
         private void OnEnable()
         {
             if(infoVals ==null)

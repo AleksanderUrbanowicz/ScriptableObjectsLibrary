@@ -1,11 +1,11 @@
-﻿using DataContainers;
+﻿using Data;
 using Managers;
 using StateMachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Configs
+namespace Data
 {
     [CreateAssetMenu(fileName = "Config_Global", menuName = "Config/Singleton Global Config")]
     public class SingletonGlobalConfig :  ScriptableSingleton<SingletonGlobalConfig>
