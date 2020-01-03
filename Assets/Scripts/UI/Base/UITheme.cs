@@ -1,28 +1,49 @@
-﻿using System.Collections;
+﻿using DataContainers;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 namespace UI
 {
     [CreateAssetMenu(fileName = "Theme_", menuName = "UI/Theme UI Data")]
     public class UITheme : ScriptableObject
     {
-        public ThemeInfoTypeData themeInfoTypeData;
-        public List<ThemeInfoTypeData> infoTypeDatas;
-
-        public void OnEnable()
+        public List<IEnumValue> values = new List<IEnumValue>();
+        public List<ThemeInfoEnumValue> infoVals;
+        public List<ThemeInfoType> infoTypes;
+        // public List<ThemeInfoEnumValue> infoTypeDatas;
+        // public List<ThemeColorVariantData> themeColorVariantData;
+        // public ScriptableEnums<ThemeInfoEnumValue, ThemeInfoType> scriptableEnums;
+        // public ScriptableEnums<ThemeColorVariantData,ThemeColorVariant> themeColorVariants;
+        private void OnEnable()
         {
-            //infoTypeDatas = new List<ThemeInfoTypeData>();
-            var assets = Resources.LoadAll<ThemeInfoType>("");
-            if (assets.Length == 0)
+            if(infoVals ==null)
             {
-                Debug.LogError("no ThemeInfoType");
+                InitData();
             }
-            foreach(ThemeInfoType type in assets)
+            
+
+        }
+        private void InitData()
+        {
+            infoVals = new List<ThemeInfoEnumValue>();
+           
+            infoTypes = Resources.LoadAll<ThemeInfoType>("").ToList();
+
+            //values = Resources.LoadAll<(ScriptableObject)>("").ToList();
+            foreach (var n in infoTypes)
             {
-                infoTypeDatas.Add(new ThemeInfoTypeData(type));
+
+                //Resources.Load < Types(n)> ("");
+                values.Add(new ThemeInfoEnumValue(n as IEnumType));
+            }
+
+            foreach (var n in infoTypes)
+            {
+
+                infoVals.Add(new ThemeInfoEnumValue(n as IEnumType));
             }
         }
 
-        
     }
 }

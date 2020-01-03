@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Manager_UI
   m_EditorClassIdentifier: 
   n: 30
-  currentTheme: {fileID: 11400000, guid: 4d56fa55bf7f5684688346044b1b462c, type: 2}
+  currentTheme: {fileID: 0}
   overrideTheme: {fileID: 0}
   themes: []

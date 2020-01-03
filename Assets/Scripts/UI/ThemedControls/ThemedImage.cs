@@ -8,7 +8,7 @@ namespace UI {
     [RequireComponent(typeof(Image))]
 
     
-    public class ThemedImage : ThemeUI, IThemedInfo
+    public class ThemedImage : ThemeUI
     {
         [SerializeField]
         public ThemeInfoType themedInfoType;
@@ -18,14 +18,14 @@ namespace UI {
                 
          
 
-        public Color GetColor(ThemeInfoType themedInfoType)
+     
+
+        public Sprite GetSprite()
         {
-            return Color.white;
+            throw new NotImplementedException();
         }
 
-        public Sprite GetSprite(ThemeInfoType themedInfoType)
-        {
-          return  Image.sprite;
-        }
+      
+
     }
 }

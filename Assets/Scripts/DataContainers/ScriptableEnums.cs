@@ -1,23 +1,65 @@
-﻿using System.Collections;
+﻿using DataContainers;
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
-
-public class ScriptableEnums<T,U> : ScriptableObject where T : IEnumTypeData where U :ScriptableObject
+namespace DataContainers
 {
-    public List<T> infoTypeDatas;
-
-    public void init()
+    [Serializable]
+    public class ScriptableEnums<T, U>  where T : IEnumValue where U : ScriptableObject, IEnumType
     {
-        infoTypeDatas = new List<T>();
-        var assets = Resources.LoadAll<U>("");
-        if (assets.Length == 0)
+        public List<T> enumDatas;
+        public U u;
+
+        private void OnEnable()
         {
-            Debug.LogError("no ThemeInfoType");
+            init();
+            ValidateKeys();
         }
-        foreach (U type in assets)
+        public void init()
         {
-           // T t;
-           // infoTypeDatas.Add(t);
+            enumDatas = new List<T>();
+            var assets = Resources.LoadAll<U>("");
+            if (assets.Length == 0)
+            {
+                Debug.LogError("no ThemeInfoType");
+            }
+            foreach (U type in assets)
+            {
+                T t = default(T);
+                if(t !=null)
+                    {
+                    t.Initialize(type);
+                }
+                enumDatas.Add(t);
+              //  Debug.LogError("enum add: "+type.GetEnumID());
+            }
+        }
+        
+            public void ValidateKeys()
+        {
+            enumDatas = new List<T>();
+            //Debug.LogError("ValidateKeys");
+
+            var assets = Resources.LoadAll<U>("");
+            if (assets.Length == 0)
+            {
+                Debug.LogError("no ThemeInfoType");
+            }
+            foreach (U type in assets)
+            {
+                string s = type.GetEnumID();
+             
+
+               // if (enumDatas.FirstOrDefault(w => w.GetEnumKey() == s) == null)// GetEnumKey()==type.GetEnumID()))
+               // {
+                    T t = default(T);
+                   // t.Initialize(type);
+                    enumDatas.Add(t);
+                //}
+
+            }
         }
     }
 }

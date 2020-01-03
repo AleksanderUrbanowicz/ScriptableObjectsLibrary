@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1070e4c5b2b3fb641909e5069761c8b5, type: 3}
-  m_Name: GameplaySettings
+  m_Script: {fileID: 11500000, guid: 5ec9414f6f3f8cb47b7afe0f33bc8491, type: 3}
+  m_Name: ThemedColorVariant_Dark 1
   m_EditorClassIdentifier: 
-  i: 6

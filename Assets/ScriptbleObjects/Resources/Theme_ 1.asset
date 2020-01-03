@@ -10,15 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 584cd094d1190f8448aa1f1751b84218, type: 3}
-  m_Name: Theme_
+  m_Name: Theme_ 1
   m_EditorClassIdentifier: 
   infoVals:
   - enumKey: {fileID: 11400000, guid: ac2ae8a7c1724b44782df2004f11e4cb, type: 2}
     color: {r: 0, g: 0, b: 0, a: 0}
     icon: {fileID: 0}
+  - enumKey: {fileID: 11400000, guid: 776122255ec891c4a82c07e183bc1413, type: 2}
+    color: {r: 0, g: 0, b: 0, a: 0}
+    icon: {fileID: 0}
   - enumKey: {fileID: 11400000, guid: 47657e9954d74804aa8eb73f2c07ade7, type: 2}
+    color: {r: 0.6603774, g: 0.27736837, b: 0.2024742, a: 0.72156864}
+    icon: {fileID: 0}
+  - enumKey: {fileID: 11400000, guid: 80eef95c496049b4198f2f0e3e205584, type: 2}
     color: {r: 0, g: 0, b: 0, a: 0}
     icon: {fileID: 0}
   infoTypes:
   - {fileID: 11400000, guid: ac2ae8a7c1724b44782df2004f11e4cb, type: 2}
+  - {fileID: 11400000, guid: 776122255ec891c4a82c07e183bc1413, type: 2}
   - {fileID: 11400000, guid: 47657e9954d74804aa8eb73f2c07ade7, type: 2}
+  - {fileID: 11400000, guid: 80eef95c496049b4198f2f0e3e205584, type: 2}

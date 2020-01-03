@@ -6,10 +6,11 @@ using UnityEngine;
 
 namespace UI
 {
-    [CreateAssetMenu(fileName = "ThemedInfo_", menuName = "UI/Themed Info Type")]
 
-    [Serializable]
-    public class ThemeInfoType : ScriptableObject, IEnumType, IThemedColor, IThemedSprite
+    [CreateAssetMenu(fileName = "ThemedColorVariant_", menuName = "UI/Themed Color Variant")]
+
+
+    public class ThemeTextRole : ScriptableObject, IEnumType, IThemedFont
     {
         public bool Equals(IEnumType type)
         {
@@ -21,20 +22,22 @@ namespace UI
             throw new NotImplementedException();
         }
 
-
-        public Sprite GetSprite()
+        public void GetColor()
         {
             throw new NotImplementedException();
         }
 
-       
-
-        string IEnumType.GetEnumID()
+        public string GetEnumID()
         {
-            return (this as ScriptableObject).name;
+            throw new NotImplementedException();
         }
 
-        void IThemedColor.SetColor()
+        public void GetFont()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void GetSize()
         {
             throw new NotImplementedException();
         }
