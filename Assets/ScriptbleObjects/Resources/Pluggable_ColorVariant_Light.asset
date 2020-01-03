@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6330f6a170538f84d809905236f83cde, type: 3}
-  m_Name: Manager_UI
+  m_Script: {fileID: 11500000, guid: c97733ca0b280cc4c832ab527abcb92a, type: 3}
+  m_Name: Pluggable_ColorVariant_Light
   m_EditorClassIdentifier: 
-  currentPluggableUI: {fileID: 11400000, guid: 350d7a6e1eaa75c4c997592b87d9b4b6, type: 2}
-  overridePluggableUI: {fileID: 0}
-  pluggableUIs: []

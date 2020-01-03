@@ -18,7 +18,7 @@ namespace Managers
                 if (assets.Length == 0)
                 {
                     _instance = CreateInstance<T>();
-                    Debug.LogError("CreateInstance<"+ typeof(T).Name+">" );
+                    //Debug.LogError("CreateInstance<"+ typeof(T).Name+">" );
                 }
                 else
                 {

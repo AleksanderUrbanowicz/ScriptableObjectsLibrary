@@ -13,7 +13,7 @@ namespace UI
             get
             {
 
-                themeData = themeData != null ? themeData : SingletonUIManager.Instance.ThemeData;
+                themeData = themeData != null ? themeData : SingletonUIManager.Instance.PluggableUIData;
                 return themeData;
               
             }

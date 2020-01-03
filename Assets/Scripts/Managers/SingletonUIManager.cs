@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UI;
+using System.Linq;
+
 namespace Managers
 {
     [CreateAssetMenu(fileName = "Manager_UI", menuName = "Managers/ Singleton UI Manager")]
@@ -12,22 +14,34 @@ namespace Managers
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         public static void BeforeSceneLoad() { CreateSingletonInstance(); }
         
-        public UI.PluggableUIData currentTheme;
-        public UI.PluggableUIData overrideTheme;
-        public List<UI.PluggableUIData> themes ;
-
-       // public List
-
-        public PluggableUIData ThemeData
+        public UI.PluggableUIData currentPluggableUI;
+        public UI.PluggableUIData overridePluggableUI;
+        public List<UI.PluggableUIData> pluggableUIs;
+        public List<ScriptableObject> scriptableObjects;
+        private void OnEnable()
         {
-            get { if (overrideTheme == null)
+
+            InitData();
+
+        }
+        private void InitData()
+        {
+
+            scriptableObjects = Resources.LoadAll<ScriptableObject>("").Where(x => x is IPluggableUI).ToList();
+
+            
+        }
+
+        public PluggableUIData PluggableUIData
+        {
+            get { if (overridePluggableUI == null)
                 {
 
-                    return currentTheme;
+                    return currentPluggableUI;
                 }
             else
                 {
-                    return overrideTheme;
+                    return overridePluggableUI;
                 }
                 }
             set { }

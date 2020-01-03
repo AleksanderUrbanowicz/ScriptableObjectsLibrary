@@ -6,7 +6,7 @@ namespace UI
     public interface IFontModifier :IUIModifier
     {
         
-        void GetSize();
+        //void GetSize();
 
         void GetFont();
     }

@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 namespace  UI{
-[CreateAssetMenu(fileName = "ThemeMessageType_", menuName = "UI/Scriptable Enums/MessageType")]
+[CreateAssetMenu(fileName = "PluggableMessageType_", menuName = "UI/Scriptable Enums/MessageType")]
 
 public class PluggableMessageType : ScriptableObject, IPluggableUI
 {

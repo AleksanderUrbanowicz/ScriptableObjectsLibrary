@@ -3,24 +3,24 @@ using UnityEngine;
 
 namespace Assets._Scripts.EditorUtilities
 {
-    public class ThemeUISpawner : Editor
+    public class PluggableUISpawner : Editor
     {
-        [MenuItem("GameObject/ThemeUI/Button", priority = 0)]
+        [MenuItem("GameObject/PluggableUI/Button", priority = 0)]
         public static void AddButton()
         {
             Create("ThemeButton");
 
         }
 
-        [MenuItem("GameObject/ThemeUI/Panel", priority = 0)]
+        [MenuItem("GameObject/PluggableUI/Panel", priority = 0)]
 
         public static void AddPanel()
         {
-            Create("ThemePanel");
+            Create("PluggablePanel");
 
         }
 
-        [MenuItem("GameObject/ThemeUI/Slider", priority = 0)]
+        [MenuItem("GameObject/PluggableUI/Slider", priority = 0)]
 
         public static void AddSlider()
         {
@@ -28,7 +28,7 @@ namespace Assets._Scripts.EditorUtilities
 
         }
 
-        [MenuItem("GameObject/ThemeUI/Labelled Bar", priority = 0)]
+        [MenuItem("GameObject/PluggableUI/Labelled Bar", priority = 0)]
 
         public static void AddLabelledBar()
         {

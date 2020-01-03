@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 584cd094d1190f8448aa1f1751b84218, type: 3}
-  m_Name: Theme_ 2
+  m_Name: Pluggable_UI_Debug
   m_EditorClassIdentifier: 
   pluggableColorVariant: {fileID: 0}
   pluggableTextRole: {fileID: 0}
@@ -20,4 +20,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b6a33cd121e44b64a9a26fad2e3c0332, type: 2}
   - {fileID: 11400000, guid: 0c7d96e2d617a564e86f18afe9ec6cfd, type: 2}
   - {fileID: 11400000, guid: 557f1b9a229685f4ba09bca1bf56f663, type: 2}
+  - {fileID: 11400000, guid: d47ce59e40fa7644b94558be6b8f4aae, type: 2}
   scriptableObjects: []

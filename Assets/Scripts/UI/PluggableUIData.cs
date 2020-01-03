@@ -13,22 +13,17 @@ namespace UI
         [SerializeField]
         public List<ScriptableObject> pluggableUIs;
         public List<ScriptableObject> scriptableObjects;
-        // Color Varoant
-        //Text Role, ImageRole. informat type
+        
         private void OnEnable()
         {
             
                 InitData();
-           // pluggableUIs
-
-
-
+          
         }
         private void InitData()
         {
-
-            var list = Resources.LoadAll<ScriptableObject>("").Where(x => x is IPluggableUI);
-            pluggableUIs = list.ToList();
+            pluggableUIs = Resources.LoadAll<ScriptableObject>("").Where(x => x is IPluggableUI).ToList();
+            
         }
 
     }

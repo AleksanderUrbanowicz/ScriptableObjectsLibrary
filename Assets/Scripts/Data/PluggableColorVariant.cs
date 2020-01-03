@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UI;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "ThemedColorVariant_", menuName = "UI/Scriptable Enums/ColorVariant")]
+[CreateAssetMenu(fileName = "Pluggable_ColorVariant_", menuName = "UI/Scriptable Enums/ColorVariant")]
 
 public class PluggableColorVariant : ScriptableObject, IPluggableUI, IFontModifier
 {
@@ -18,7 +18,7 @@ public class PluggableColorVariant : ScriptableObject, IPluggableUI, IFontModifi
         throw new NotImplementedException();
     }
 
-    public void Modify(IPlugginableUI plugginableUI, IPluggableUI pluggableUI, PluggableUIData themeData)
+    public void Modify(IPlugginableUI plugginableUI, IPluggableUI pluggableUI, PluggableUIData pluggableUIData)
     {
         throw new NotImplementedException();
     }
