@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b64ff982fd22c24ba700a684b88f95e, type: 3}
-  m_Name: Config_Global
+  m_Script: {fileID: 11500000, guid: c97733ca0b280cc4c832ab527abcb92a, type: 3}
+  m_Name: ThemedColorVariant_
   m_EditorClassIdentifier: 
-  AllPluggableTransforms: {fileID: 0}
-  themeUI: {fileID: 0}
-  buildObjectStartState: {fileID: 0}
-  remainInState: {fileID: 0}

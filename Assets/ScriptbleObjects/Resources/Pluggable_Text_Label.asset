@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b64ff982fd22c24ba700a684b88f95e, type: 3}
-  m_Name: Config_Global
+  m_Script: {fileID: 11500000, guid: d39b323e18064b04aad248162cd333ab, type: 3}
+  m_Name: Pluggable_Text_Label
   m_EditorClassIdentifier: 
-  AllPluggableTransforms: {fileID: 0}
-  themeUI: {fileID: 0}
-  buildObjectStartState: {fileID: 0}
-  remainInState: {fileID: 0}

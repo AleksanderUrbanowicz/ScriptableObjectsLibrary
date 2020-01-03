@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6330f6a170538f84d809905236f83cde, type: 3}
   m_Name: Manager_UI
   m_EditorClassIdentifier: 
-  n: 30
-  currentTheme: {fileID: 0}
+  currentTheme: {fileID: 11400000, guid: 8171abd8ab1a5964e95722462aff8b79, type: 2}
   overrideTheme: {fileID: 0}
-  themes: []
+  themes:
+  - {fileID: 11400000, guid: 905374c7964d32646b22535e2b1edb9f, type: 2}

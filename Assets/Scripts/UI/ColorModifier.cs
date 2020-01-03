@@ -26,5 +26,20 @@ namespace UI
         {
             return Color.Lerp(color, modifier, t);
         }
+
+        public void Modify(IPlugginableUI plugginableUI, IPluggableUI pluggableUI, PluggableUIData themeData)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetColor(IPlugginableUI plugginableUI, PluggableUIData themeData)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void SetColor(PluggableUIData uiData)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
