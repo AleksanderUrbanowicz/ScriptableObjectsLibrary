@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Data.GameplayConfig" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\GameplayConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.GameplaySettings" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Data\GameplaySettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.RuntimeCollection&lt;T&gt;" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\RuntimeCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.ScriptableFloat" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\ScriptableVariables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.ScriptableBool" Collapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\ScriptableVariables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.ScriptableInt" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\ScriptableVariables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.SingletonGlobalConfig" Collapsed="true">
+    <Position X="3" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\SingletonGlobalConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.TransformRuntimeCollection" Collapsed="true">
+    <Position X="10.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\TransformRuntimeCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PluggableColorVariant" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\PluggableColorVariant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PluggableMessageType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\PluggableMessageType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PluggableTextRole" BaseTypeListCollapsed="true">
+    <Position X="13" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\PluggableTextRole.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Managers.MonoBehaviourHookup" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\MonoBehaviourHookup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Managers.RaycastData" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAABAAAAQAAAAAAQAAAAAABBACAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\RaycastData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Managers.RaycastExecutorData" Collapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\RaycastExecutorData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Managers.ScriptableMonoBehaviour" Collapsed="true">
+    <Position X="4" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAiAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\ScriptableMonoBehaviour.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Managers.ScriptableSingleton&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAABAAAAAAABAAAABAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\ScriptableSingleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Managers.SingletonSelectManager" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QIAIAAAAAAAAAEAAAAAAAAAAAAAIAAAAEABCAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\SingletonSelectManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Managers.SingletonUIManager" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEABAAAAAAAgCAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\SingletonUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Managers.Spawner" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Spawner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateMachine.Action" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\Action.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.BoolEventGroup" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAwA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\BoolEventGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.BoolEventListener" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\BoolEventListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.DebugDecision" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAABEAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\DebugDecision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.Decision" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\Decision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.GameEvent" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAgAAAAAAQAAgA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\GameEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.GameEventListener" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAABAAAAAgAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\GameEventListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.RemainsInState" Collapsed="true">
+    <Position X="8.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\RemainsInState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.ScriptableEvent" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAgAAAAAAQAAgA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\ScriptableEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.ScriptableEventListener" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAAAABAAAAAgAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\ScriptableEventListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.State" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAIAAAAAAAADAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.StateControllerMBBase" Collapsed="true">
+    <Position X="13" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAACCAAAAAAAIAAAABCAAAAAAAEBAAAQAAIAQAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\StateControllerMBBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.TimedDecision" Collapsed="true">
+    <Position X="2.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\TimedDecision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine.Transition" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StateMachine\Transition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.ColorModifier" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAABAAQ=</HashCode>
+      <FileName>Assets\Scripts\UI\ColorModifier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UI.PluggableUIData" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAQAEAABAAAAAAAAAAAAAgAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\PluggableUIData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI.PlugginableImage" Collapsed="true">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQAAAAAAAAAAAAAAAAAiEAAAARAAAAgAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\PlugginableUI\PlugginableImage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UI.ThemeUI" Collapsed="true">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAACAAAACgAAEAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\UI\PlugginableUI\ThemeUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Managers.IExecutor" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\IExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Managers.IMonoBehaviourable" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\IMonoBehaviourable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Managers.IRaycastExecutor" Collapsed="true">
+    <Position X="5.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Managers\IRaycastExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Managers.ISpawnable" Collapsed="true">
+    <Position X="20" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\ISpawnable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Managers.ISpawner" Collapsed="true">
+    <Position X="13" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\ISpawner.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Managers.IUpdateExecutor" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAgAAAAgAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Managers\IUpdateExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UI.IColorApplier" Collapsed="true">
+    <Position X="13" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\IColorApplier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UI.IPluggableUI" Collapsed="true">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\IPluggableUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UI.IPlugginableUI" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\PlugginableUI\IPlugginableUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UI.IColorModifier" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\UIModifiers\IColorModifier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UI.IFontModifier" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\UIModifiers\IFontModifier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UI.ISpriteModifier" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\UIModifiers\ISpriteModifier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UI.IUIModifier" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\UIModifiers\IUIModifier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

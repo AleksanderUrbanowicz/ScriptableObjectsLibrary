@@ -10,8 +10,9 @@ namespace UI
     {
         public PluggableColorVariant pluggableColorVariant;
         public PluggableTextRole  pluggableTextRole;
-        public List<PluggableTextRole> pluggableTextRoles;
-        public List<ScriptableObject> scriptableObjects=new List<ScriptableObject>();
+        [SerializeField]
+        public List<ScriptableObject> pluggableUIs;
+        public List<ScriptableObject> scriptableObjects;
         // Color Varoant
         //Text Role, ImageRole. informat type
         private void OnEnable()
@@ -27,6 +28,7 @@ namespace UI
         {
 
             var list = Resources.LoadAll<ScriptableObject>("").Where(x => x is IPluggableUI);
+            pluggableUIs = list.ToList();
         }
 
     }

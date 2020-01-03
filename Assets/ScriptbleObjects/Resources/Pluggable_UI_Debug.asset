@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 584cd094d1190f8448aa1f1751b84218, type: 3}
+  m_Name: Theme_ 2
+  m_EditorClassIdentifier: 
+  pluggableColorVariant: {fileID: 0}
+  pluggableTextRole: {fileID: 0}
+  pluggableUIs:
+  - {fileID: 11400000, guid: b853f347466c29b4f9c665525ea89130, type: 2}
+  - {fileID: 11400000, guid: 4e55d12b73de3474e8352aef93a8ccc1, type: 2}
+  - {fileID: 11400000, guid: b6a33cd121e44b64a9a26fad2e3c0332, type: 2}
+  - {fileID: 11400000, guid: 0c7d96e2d617a564e86f18afe9ec6cfd, type: 2}
+  - {fileID: 11400000, guid: 557f1b9a229685f4ba09bca1bf56f663, type: 2}
+  scriptableObjects: []

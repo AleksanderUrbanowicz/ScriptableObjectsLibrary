@@ -19,17 +19,15 @@ namespace UI {
 
         public Image Image { get => image != null ? image : GetComponent<Image>(); }
 
-        public Color ApplyModifier(Color color)
+        public override  void Awake()
         {
-            throw new NotImplementedException();
+            themeData = ThemeData;
         }
 
         public void Modify(IPlugginableUI plugginableUI, IPluggableUI pluggableUI, PluggableUIData themeData)
         {
             throw new NotImplementedException();
         }
-
-       
 
         public void SetColor(PluggableUIData uiData)
         {

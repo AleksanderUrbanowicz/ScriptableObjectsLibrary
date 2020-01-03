@@ -4,7 +4,7 @@ using UnityEngine;
 namespace UI
 {
     [Serializable]
-    public class ColorModifier : IColorModifier
+    public class ColorModifier : IColorApplier
     {
         public Color modifier;
         [Range(0.0f, 1.0f)]

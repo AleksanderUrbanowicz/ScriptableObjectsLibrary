@@ -6,5 +6,7 @@ namespace UI
     public interface IPluggableUI
     {
 
-    }
+        void Plug(IPlugginableUI plugginable); 
+            
+            }
 }

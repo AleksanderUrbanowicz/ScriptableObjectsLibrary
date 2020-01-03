@@ -1,6 +1,6 @@
-﻿using UI;
+﻿
 using UnityEngine;
-
+namespace  UI{
 [CreateAssetMenu(fileName = "ThemeMessageType_", menuName = "UI/Scriptable Enums/MessageType")]
 
 public class PluggableMessageType : ScriptableObject, IPluggableUI
@@ -8,5 +8,9 @@ public class PluggableMessageType : ScriptableObject, IPluggableUI
 
     string YES_NO_NEUTRAL_DEFAULT_INFO;
 
+        public void Plug(IPlugginableUI plugginable)
+        {
+            throw new System.NotImplementedException();
+        }
+    }
 }
-

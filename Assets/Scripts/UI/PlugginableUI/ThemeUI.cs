@@ -8,8 +8,6 @@ namespace UI
     public class ThemeUI : MonoBehaviour, IPlugginableUI
     {
         public PluggableUIData themeData;
-        
-
         public PluggableUIData ThemeData
         {
             get
@@ -44,7 +42,7 @@ namespace UI
             }
         }
 
-        public PluggableUIData GetThemeData(IPluggableUI pluggableUI)
+        public PluggableUIData GetPluggableUIData(IPluggableUI pluggableUI)
         {
             throw new System.NotImplementedException();
         }
