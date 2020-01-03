@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Manager_Select
   m_EditorClassIdentifier: 
   raycastData: {fileID: 0}
+  n: 3

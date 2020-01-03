@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1070e4c5b2b3fb641909e5069761c8b5, type: 3}
-  m_Name: GameplaySettings
+  m_Script: {fileID: 11500000, guid: ae243195b67114c48885901d783be1a6, type: 3}
+  m_Name: ThemedInfo_Yes
   m_EditorClassIdentifier: 
-  i: 1
+  id: 
