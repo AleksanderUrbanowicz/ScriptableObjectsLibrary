@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GameEvents
+namespace StateMachine
 {
     [Serializable]
     public class BoolEventGroup

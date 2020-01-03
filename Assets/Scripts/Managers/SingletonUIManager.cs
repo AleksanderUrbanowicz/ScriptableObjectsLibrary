@@ -11,12 +11,14 @@ namespace Managers
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         public static void BeforeSceneLoad() { CreateSingletonInstance(); }
-        public float n = 30;
-        public UI.ThemeUIData currentTheme;
-        public UI.ThemeUIData overrideTheme;
-        public List<UI.ThemeUIData> themes ;
+        
+        public UI.UITheme currentTheme;
+        public UI.UITheme overrideTheme;
+        public List<UI.UITheme> themes ;
 
-        public ThemeUIData Theme
+       // public List
+
+        public UITheme Theme
         {
             get { if (overrideTheme == null)
                 {

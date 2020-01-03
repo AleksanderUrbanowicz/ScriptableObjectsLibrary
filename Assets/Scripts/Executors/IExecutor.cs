@@ -1,4 +1,4 @@
-﻿namespace Executors
+﻿namespace Managers
 
 {
     public interface IExecutor

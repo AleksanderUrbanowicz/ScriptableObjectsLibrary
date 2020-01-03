@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GameEvents
+namespace StateMachine
 {
     [CreateAssetMenu(fileName = "GameEvent", menuName = "States/Game Event")]
 

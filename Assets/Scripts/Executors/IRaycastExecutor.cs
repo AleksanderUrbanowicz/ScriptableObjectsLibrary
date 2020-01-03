@@ -1,5 +1,5 @@
 ﻿
-namespace Executors
+namespace Managers
 {
     public interface IRaycastExecutor : IUpdateExecutor
     {

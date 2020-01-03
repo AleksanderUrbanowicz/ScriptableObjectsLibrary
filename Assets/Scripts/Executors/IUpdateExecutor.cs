@@ -1,6 +1,6 @@
 ﻿
 
-namespace Executors
+namespace Managers
 {
     public interface IUpdateExecutor : IExecutor
     {

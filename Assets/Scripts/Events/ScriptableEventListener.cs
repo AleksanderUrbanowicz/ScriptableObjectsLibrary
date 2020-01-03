@@ -3,7 +3,7 @@
 using StateMachine;
 using UnityEngine;
 using UnityEngine.Events;
-namespace GameEvents
+namespace StateMachine
 {
     public class ScriptableEventListener : MonoBehaviour
     {

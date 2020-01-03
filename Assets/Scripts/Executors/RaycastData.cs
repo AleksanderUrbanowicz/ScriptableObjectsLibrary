@@ -1,8 +1,8 @@
 ﻿
-using GameEvents;
+using StateMachine;
 using System;
 using UnityEngine;
-namespace Executors
+namespace Managers
 {
     [Serializable]
     [CreateAssetMenu(fileName = "RaycastData_", menuName = "ScriptableSystems/Helpers/Raycast Data Asset")]

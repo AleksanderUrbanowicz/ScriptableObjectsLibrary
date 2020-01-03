@@ -21,7 +21,7 @@ namespace Data
         }
 
         public TransformRuntimeCollection AllPluggableTransforms;
-        public UI.ThemeUIData themeUI;
+        public UI.UITheme themeUI;
         public State buildObjectStartState;
         public State remainInState;
 

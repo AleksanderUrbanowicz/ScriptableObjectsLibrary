@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-namespace Helpers
+namespace Managers
 {
 
     public interface ISpawnable

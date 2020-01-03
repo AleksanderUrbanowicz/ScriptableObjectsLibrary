@@ -12,20 +12,21 @@ namespace UI {
     {
         [SerializeField]
         public ThemeInfoType themedInfoType;
+        [SerializeField]
+        public ThemeColorVariant themeColorVariant;
+   
         private Image image;
 
         public Image Image { get => image != null ? image : GetComponent<Image>(); }
-                
-         
 
-     
-
-        public Sprite GetSprite()
+        protected override void OnThemeDraw()
         {
-            throw new NotImplementedException();
+
+            base.OnThemeDraw();
+            
         }
 
-      
+
 
     }
 }

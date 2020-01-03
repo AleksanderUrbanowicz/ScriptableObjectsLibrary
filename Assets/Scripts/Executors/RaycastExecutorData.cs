@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Executors
+namespace Managers
 {
     public class RaycastExecutorData
     {
