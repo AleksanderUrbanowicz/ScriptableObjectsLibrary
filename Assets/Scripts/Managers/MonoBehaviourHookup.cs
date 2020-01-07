@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Managers
+namespace BaseLibrary.Managers
 {
     public class MonoBehaviourHookup : MonoBehaviour
     {

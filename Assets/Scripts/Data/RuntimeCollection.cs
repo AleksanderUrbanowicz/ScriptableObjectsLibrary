@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace Data
+namespace BaseLibrary.Data
 {
     public abstract class RuntimeCollection<T> : ScriptableObject
     {

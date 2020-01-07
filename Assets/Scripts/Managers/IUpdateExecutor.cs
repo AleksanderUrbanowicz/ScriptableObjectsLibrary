@@ -1,6 +1,4 @@
-﻿
-
-namespace Managers
+﻿namespace BaseLibrary.Managers
 {
     public interface IUpdateExecutor : IExecutor
     {

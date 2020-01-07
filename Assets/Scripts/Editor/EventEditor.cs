@@ -1,21 +1,23 @@
 ﻿
 
-using StateMachine;
+
 using UnityEditor;
 using UnityEngine;
 
-
-[CustomEditor(typeof(GameEvent), true)]
-public class EventEditor : Editor
+namespace StateMachine
 {
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(GameEvent), true)]
+    public class EventEditor : Editor
     {
-        base.OnInspectorGUI();
+        public override void OnInspectorGUI()
+        {
+            base.OnInspectorGUI();
 
-        GUI.enabled = Application.isPlaying;
+            GUI.enabled = Application.isPlaying;
 
-        GameEvent e = target as GameEvent;
-        if (GUILayout.Button("Raise"))
-            e.Raise();
+            GameEvent e = target as GameEvent;
+            if (GUILayout.Button("Raise"))
+                e.Raise();
+        }
     }
 }

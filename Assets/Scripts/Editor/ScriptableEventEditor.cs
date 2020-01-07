@@ -2,19 +2,21 @@
 using UnityEditor;
 using UnityEngine;
 
-
-[CustomEditor(typeof(ScriptableEvent), true)]
-public class ScriptableEventEditor : Editor
+namespace StateMachine
 {
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(ScriptableEvent), true)]
+    public class ScriptableEventEditor : Editor
     {
-        base.OnInspectorGUI();
+        public override void OnInspectorGUI()
+        {
+            base.OnInspectorGUI();
 
-        GUI.enabled = Application.isPlaying;
+            GUI.enabled = Application.isPlaying;
 
-        ScriptableEvent e = target as ScriptableEvent;
-        if (GUILayout.Button("Raise"))
-            e.Raise();
+            ScriptableEvent e = target as ScriptableEvent;
+            if (GUILayout.Button("Raise"))
+                e.Raise();
+        }
     }
-}
 
+}

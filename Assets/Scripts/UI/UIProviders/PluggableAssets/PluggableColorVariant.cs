@@ -4,16 +4,19 @@ using System.Collections.Generic;
 using UI;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Pluggable_ColorVariant_", menuName = "UI/Scriptable Enums/ColorVariant")]
-
-public class PluggableColorVariant : ScriptableObject, IPluggableUI
+namespace UI
 {
-   
+    [CreateAssetMenu(fileName = "Pluggable_ColorVariant_", menuName = "UI/Scriptable Enums/ColorVariant")]
 
-
-    public void Plug(IPlugginableUI plugginable)
+    public class PluggableColorVariant : ScriptableObject, IPluggableUI
     {
-        throw new NotImplementedException();
-    }
-}
 
+
+
+        public void Plug(IPlugginableUI plugginable)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+}

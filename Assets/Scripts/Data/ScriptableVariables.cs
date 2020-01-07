@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Data
+namespace BaseLibrary.Data
 {
 
     [CreateAssetMenu(fileName = "ScriptableInt", menuName = "Data/Collections/Scriptable Int")]

@@ -1,9 +1,8 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Managers
+namespace BaseLibrary.Managers
 {
-    public  class ScriptableSingleton<T> : ScriptableMonoBehaviour where T : ScriptableMonoBehaviour
+    public class ScriptableSingleton<T> : ScriptableMonoBehaviour where T : ScriptableMonoBehaviour
     {
         private static T _instance;
         private static bool _instantiated;
@@ -40,8 +39,8 @@ namespace Managers
         {
             get
             {
-              
-                
+
+
 
                 var assets = Resources.FindObjectsOfTypeAll<T>();
                 return assets[0];

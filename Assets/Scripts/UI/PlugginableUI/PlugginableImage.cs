@@ -8,7 +8,7 @@ namespace UI {
     [RequireComponent(typeof(Image))]
 
     
-    public class PlugginableImage : ThemeUI, IPlugginableUI
+    public class PlugginableImage : PluggableUIElement, IPlugginableUI
     {
         [PluggableAssetSelector(AssetTypeKey = "Color")]
         public string colorId;

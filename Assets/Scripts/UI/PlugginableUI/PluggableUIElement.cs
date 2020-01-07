@@ -5,7 +5,7 @@ using UnityEngine;
 namespace UI
 {
     [ExecuteInEditMode]
-    public class ThemeUI : MonoBehaviour, IPlugginableUI
+    public class PluggableUIElement : MonoBehaviour, IPlugginableUI
     {
         public PluggableUIData themeData;
         public PluggableUIData ThemeData

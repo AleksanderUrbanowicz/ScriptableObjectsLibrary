@@ -1,4 +1,4 @@
-﻿namespace Managers
+﻿namespace BaseLibrary.Managers
 
 {
     public interface IExecutor

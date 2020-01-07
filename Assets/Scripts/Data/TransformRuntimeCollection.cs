@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace Data
+namespace BaseLibrary.Data
 {
     [CreateAssetMenu]
 
