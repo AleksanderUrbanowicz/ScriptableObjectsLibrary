@@ -1,5 +1,5 @@
 ﻿using BaseLibrary.Managers;
-using StateMachine;
+using BaseLibrary.StateMachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

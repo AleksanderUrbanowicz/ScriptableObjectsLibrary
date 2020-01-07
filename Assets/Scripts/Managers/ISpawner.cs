@@ -1,6 +1,5 @@
-﻿
-using UnityEngine;
-namespace Managers
+﻿using UnityEngine;
+namespace BaseLibrary.Managers
 {
     public interface ISpawner
     {

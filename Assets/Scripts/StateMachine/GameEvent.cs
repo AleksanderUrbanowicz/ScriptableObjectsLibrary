@@ -1,8 +1,7 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace StateMachine
+namespace BaseLibrary.StateMachine
 {
     [CreateAssetMenu(fileName = "GameEvent", menuName = "States/Game Event")]
 

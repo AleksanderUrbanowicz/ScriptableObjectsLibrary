@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-namespace StateMachine
+namespace BaseLibrary.StateMachine
 {
     [CreateAssetMenu(fileName = "State", menuName = "States/State")]
     public class State : ScriptableObject
@@ -29,7 +29,7 @@ namespace StateMachine
             {
                 if (transitions[i].decision == null)
                 {
-                    Debug.LogError(this.name + ".transitions[" + i + "].decision is null");
+                    Debug.LogError(name + ".transitions[" + i + "].decision is null");
                     continue;
                 }
                 bool decisionSucceeded = transitions[i].decision.Decide(controller);

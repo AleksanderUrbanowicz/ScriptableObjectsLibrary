@@ -1,4 +1,4 @@
-﻿namespace StateMachine
+﻿namespace BaseLibrary.StateMachine
 {
     [System.Serializable]
     public class Transition

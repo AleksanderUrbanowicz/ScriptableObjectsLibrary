@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-namespace StateMachine
+namespace BaseLibrary.StateMachine
 {
     [CreateAssetMenu(fileName = "RemainsInState", menuName = "States/RemainsIn State")]
 

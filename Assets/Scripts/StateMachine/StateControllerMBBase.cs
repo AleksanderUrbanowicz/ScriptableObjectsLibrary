@@ -1,7 +1,6 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace StateMachine
+namespace BaseLibrary.StateMachine
 {
     public class StateControllerMBBase : MonoBehaviour
     {
@@ -62,7 +61,7 @@ namespace StateMachine
         public bool CheckIfCountDownElapsed(float duration)
         {
             stateTimeElapsed += Time.deltaTime;
-            return (stateTimeElapsed >= duration);
+            return stateTimeElapsed >= duration;
         }
 
         private void OnExitState()

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StateMachine
+namespace BaseLibrary.StateMachine
 {
     [Serializable]
     public class BoolEventGroup

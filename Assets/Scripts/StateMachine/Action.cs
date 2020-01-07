@@ -1,6 +1,5 @@
-﻿
-using UnityEngine;
-namespace StateMachine
+﻿using UnityEngine;
+namespace BaseLibrary.StateMachine
 
 {
     public abstract class Action : ScriptableObject

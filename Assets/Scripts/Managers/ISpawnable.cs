@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-namespace Managers
+namespace BaseLibrary.Managers
 {
 
     public interface ISpawnable

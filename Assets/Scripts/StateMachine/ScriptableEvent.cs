@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace StateMachine
+namespace BaseLibrary.StateMachine
 {
 
     [CreateAssetMenu(fileName = "ScriptableEvent", menuName = "States/Scriptable Event")]

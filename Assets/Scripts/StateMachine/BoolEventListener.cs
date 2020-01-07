@@ -1,8 +1,7 @@
-﻿using StateMachine;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace StateMachine
+namespace BaseLibrary.StateMachine
 {
     public class BoolEventListener
     {
@@ -16,14 +15,14 @@ namespace StateMachine
             id = _id;
             scriptableEventListenerOnTrue = new GameObject(id + "True").AddComponent<ScriptableEventListener>();
             scriptableEventListenerOnTrue.gameObject.transform.parent = _parent;
-            scriptableEventListenerOnTrue.Response = new UnityEngine.Events.UnityEvent();
+            scriptableEventListenerOnTrue.Response = new UnityEvent();
             scriptableEventListenerOnTrue.Event = _eventTrue;
             scriptableEventListenerOnTrue.Response.AddListener(_responseTrue);
             scriptableEventListenerOnTrue.Validate();
 
             scriptableEventListenerOnFalse = new GameObject(id + "False").AddComponent<ScriptableEventListener>();
             scriptableEventListenerOnFalse.gameObject.transform.parent = _parent;
-            scriptableEventListenerOnFalse.Response = new UnityEngine.Events.UnityEvent();
+            scriptableEventListenerOnFalse.Response = new UnityEvent();
             scriptableEventListenerOnFalse.Event = _eventFalse;
             scriptableEventListenerOnFalse.Response.AddListener(_responseFalse);
             scriptableEventListenerOnFalse.Validate();
@@ -31,6 +30,6 @@ namespace StateMachine
 
         }
 
-     
+
     }
 }

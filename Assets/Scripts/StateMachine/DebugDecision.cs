@@ -1,6 +1,6 @@
 ﻿using BaseLibrary.Data;
 using UnityEngine;
-namespace StateMachine
+namespace BaseLibrary.StateMachine
 {
     [CreateAssetMenu(fileName = "Decision_Debug", menuName = "States/Decisions/Debug Decision")]
 

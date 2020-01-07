@@ -1,8 +1,6 @@
-﻿
-using StateMachine;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
-namespace StateMachine
+namespace BaseLibrary.StateMachine
 {
     public class GameEventListener : MonoBehaviour
     {
@@ -17,7 +15,7 @@ namespace StateMachine
             if (Event == null)
             {
 
-               // Debug.Log("GameEventListener:  Event == null");
+                // Debug.Log("GameEventListener:  Event == null");
                 Destroy(this);
             }
             else
@@ -36,7 +34,7 @@ namespace StateMachine
 
         public void OnEventRaised()
         {
-            
+
             if (Response != null)
             {
                 Response.Invoke();

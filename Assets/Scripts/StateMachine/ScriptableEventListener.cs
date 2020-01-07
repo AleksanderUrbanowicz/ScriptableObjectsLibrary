@@ -1,9 +1,6 @@
-﻿
-
-using StateMachine;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
-namespace StateMachine
+namespace BaseLibrary.StateMachine
 {
     public class ScriptableEventListener : MonoBehaviour
     {
@@ -36,7 +33,7 @@ namespace StateMachine
 
         public void OnEventRaised()
         {
-            
+
             if (Response != null)
             {
                 Response.Invoke();
@@ -48,6 +45,6 @@ namespace StateMachine
             }
         }
 
-      
+
     }
 }
