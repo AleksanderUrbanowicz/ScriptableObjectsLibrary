@@ -8,43 +8,50 @@ namespace UI {
     [RequireComponent(typeof(Image))]
 
     
-    public class PlugginableImage : ThemeUI, IPlugginableUI, IColorModifier, ISpriteModifier
+    public class PlugginableImage : ThemeUI, IPlugginableUI
     {
-        [SerializeField]
-        public PluggableMessageType themedMessageType;
-        [SerializeField]
-        public PluggableColorVariant themeColorVariant;
-   
-        private Image image;
+        [PluggableAssetSelector(AssetTypeKey = "Color")]
+        public string colorId;
+        [PluggableAssetSelector(AssetTypeKey = "Sprite")]
+        public string spriteId;
+
+      
+        public Image image;
 
         public Image Image { get => image != null ? image : GetComponent<Image>(); }
 
         public override  void Awake()
         {
-            themeData = ThemeData;
+            // themeData = ThemeData;
+            base.Awake();
+          
+        }
+        public override void Update()
+        {
+            // themeData = ThemeData;
+            base.Update();
+
         }
 
-        public void Modify(IPlugginableUI plugginableUI, IPluggableUI pluggableUI, PluggableUIData themeData)
+        public void SetImageColor()
         {
-            throw new NotImplementedException();
+          Image.color=  ThemeData.GetColor(colorId);
+
         }
 
-        public void SetColor(PluggableUIData uiData)
+        public void SetImageSprite()
         {
-            throw new NotImplementedException();
-        }
+            Image.sprite = ThemeData.GetSprite(spriteId);
 
-        public void SetSprites(IPlugginableUI plugginableUI)
-        {
-            throw new NotImplementedException();
         }
 
         protected override void OnThemeDraw()
         {
 
             base.OnThemeDraw();
-            Image.color = Color.red;
 
+            SetImageColor();
+            SetImageSprite();
         }
 
 

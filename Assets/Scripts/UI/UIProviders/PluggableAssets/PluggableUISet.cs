@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace UI
+
+public class PluggableUISet : ScriptableObject
 {
-    public interface IFontModifier :IUIModifier
-    {
-      
-    }
+    string id;
+    
 }
+

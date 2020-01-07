@@ -36,6 +36,18 @@ namespace Managers
             }
         }
 
+        public static T EditorInstance
+        {
+            get
+            {
+              
+                
+
+                var assets = Resources.FindObjectsOfTypeAll<T>();
+                return assets[0];
+            }
+        }
+
         protected static MonoBehaviour _MonoBehaviour;
         public static void CreateSingletonInstance() { ScriptableMonoBehaviour i = Instance; }
         private void OnDestroy() { _instantiated = false; }

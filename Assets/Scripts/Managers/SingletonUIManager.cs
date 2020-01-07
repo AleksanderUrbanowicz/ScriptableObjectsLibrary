@@ -17,7 +17,13 @@ namespace Managers
         public UI.PluggableUIData currentPluggableUI;
         public UI.PluggableUIData overridePluggableUI;
         public List<UI.PluggableUIData> pluggableUIs;
-        public List<ScriptableObject> scriptableObjects;
+        public List<ScriptableObject> ipluggableUIs;
+
+        [Header("Color defines")]
+        public List<string> colors;
+
+        [Header("Sprite defines")]
+        public List<string> sprites;
         private void OnEnable()
         {
 
@@ -27,7 +33,7 @@ namespace Managers
         private void InitData()
         {
 
-            scriptableObjects = Resources.LoadAll<ScriptableObject>("").Where(x => x is IPluggableUI).ToList();
+            ipluggableUIs = Resources.LoadAll<ScriptableObject>("").Where(x => x is IPluggableUI).ToList();
 
             
         }
