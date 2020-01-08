@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UI;
-using UnityEngine;
-namespace UI
+﻿namespace BaseLibrary.UI
 {
     public interface IUIModifier
     {

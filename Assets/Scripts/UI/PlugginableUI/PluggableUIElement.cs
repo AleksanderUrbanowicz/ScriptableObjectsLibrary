@@ -1,8 +1,7 @@
-﻿using Data;
-using Managers;
+﻿using GeneralImplementations.Managers;
 using UnityEngine;
 
-namespace UI
+namespace BaseLibrary.UI
 {
     [ExecuteInEditMode]
     public class PluggableUIElement : MonoBehaviour, IPlugginableUI

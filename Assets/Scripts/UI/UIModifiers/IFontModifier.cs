@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-namespace UI
+﻿namespace BaseLibrary.UI
 {
     public interface IFontModifier :IUIModifier
     {

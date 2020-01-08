@@ -1,15 +1,13 @@
-﻿using Data;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-namespace UI
+namespace BaseLibrary.UI
 {
     [CreateAssetMenu(fileName = "Theme_", menuName = "UI/Theme UI Data")]
     public class PluggableUIData : ScriptableObject
     {
 
-      
+
         public List<PluggableColor> Colors;
         public List<PluggableSprite> Sprites;
         public List<PluggableFont> Fonts;
@@ -19,9 +17,9 @@ namespace UI
         public Font defaultFont;
         private void OnEnable()
         {
-            
-               
-          
+
+
+
         }
 
         public Color GetColor(string id)
@@ -32,8 +30,8 @@ namespace UI
                 return defaultColor;
             }
 
-            Color c=  Colors.FirstOrDefault(x => x.id == id).color;
-            if(c==null)
+            Color c = Colors.FirstOrDefault(x => x.id == id).color;
+            if (c == null)
             {
 
                 c = defaultColor;
@@ -43,7 +41,7 @@ namespace UI
 
         public Sprite GetSprite(string id)
         {
-            if(Sprites.FirstOrDefault(x => x.id == id)==null)
+            if (Sprites.FirstOrDefault(x => x.id == id) == null)
             {
 
                 return defaultSprite;

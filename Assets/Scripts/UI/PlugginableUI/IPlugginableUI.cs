@@ -1,9 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Managers;
-using UI;
-namespace UI
+﻿namespace BaseLibrary.UI
 {
     public interface IPlugginableUI
     {

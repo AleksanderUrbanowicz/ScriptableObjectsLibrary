@@ -1,10 +1,10 @@
 ﻿
+using GeneralImplementations.Managers;
 using System;
-using System.Linq;
 using UnityEditor;
 using UnityEngine;
-using Managers;
-namespace UI
+
+namespace BaseLibrary.UI
 {
     public class PluggableAssetSelector : PropertyAttribute
     {
