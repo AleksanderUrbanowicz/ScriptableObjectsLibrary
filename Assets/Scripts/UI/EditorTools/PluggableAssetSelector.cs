@@ -27,37 +27,37 @@ namespace BaseLibrary.UI
             }
         }
 
-     //   public string ConfigKey { get => configKey; set => configKey = value; }
+        //   public string ConfigKey { get => configKey; set => configKey = value; }
         public string AssetTypeKey { get => assetTypeKey; set => assetTypeKey = value; }
 
         protected void UpdateParameters()
         {
-            
+
 #if UNITY_EDITOR
             if (config == null)
             {
                 config = SingletonUIManager.EditorInstance;
             }
-           
 
-            
+
+
 
 #endif
 
             if (config != null)
             {
-                if (String.IsNullOrEmpty(AssetTypeKey) || AssetTypeKey=="Color")
+                if (String.IsNullOrEmpty(AssetTypeKey) || AssetTypeKey == "Color")
                 {
-                    
+
                     parameters = config.colors.ToArray();
                     //Debug.LogError("UpdateParameters.colors: "+parameters.Length);
                 }
-                else if( AssetTypeKey == "Sprite")
+                else if (AssetTypeKey == "Sprite")
                 {
                     parameters = config.sprites.ToArray();
                     //Debug.LogError("UpdateParameters.sprites: " + parameters.Length);
                 }
-               
+
             }
 
         }

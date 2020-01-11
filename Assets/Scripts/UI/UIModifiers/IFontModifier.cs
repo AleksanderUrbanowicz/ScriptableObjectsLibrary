@@ -1,7 +1,7 @@
 ﻿namespace BaseLibrary.UI
 {
-    public interface IFontModifier :IUIModifier
+    public interface IFontModifier : IUIModifier
     {
-      
+
     }
 }

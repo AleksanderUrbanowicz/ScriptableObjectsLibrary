@@ -12,14 +12,14 @@ namespace BaseLibrary.UI
             get
             {
 #if UNITY_EDITOR
-                 return themeData != null ? themeData : SingletonUIManager.EditorInstance.PluggableUIData;
+                return themeData != null ? themeData : SingletonUIManager.EditorInstance.PluggableUIData;
 #else
                 return themeData != null ? themeData : SingletonUIManager.Instance.PluggableUIData;
 
 #endif
-               // return themeData != null ? themeData : SingletonUIManager.Instance.PluggableUIData;
-               // return themeData;
-              
+                // return themeData != null ? themeData : SingletonUIManager.Instance.PluggableUIData;
+                // return themeData;
+
             }
 
 
@@ -33,7 +33,7 @@ namespace BaseLibrary.UI
 
         public virtual void Awake()
         {
-           // themeData = ThemeData;
+            // themeData = ThemeData;
             OnThemeDraw();
         }
         public virtual void Update()

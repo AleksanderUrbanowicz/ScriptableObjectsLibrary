@@ -1,9 +1,15 @@
-﻿using UnityEngine;
+﻿using GeneralImplementations.Data;
+using GeneralImplementations.Managers;
+using Managers;
+using UnityEngine;
 
 namespace BaseLibrary.Managers
 {
     public class MonoBehaviourHookup : MonoBehaviour
     {
+        public RaycastExecutor buildSystemRaycast;
+        public BuildPreviewExecutor buildPreviewExecutor;
+        
         public IMonoBehaviourable Parent;
         public void Awake() { if (Parent != null) Parent.MonoBehaviourAwake(); }
         public void Start() { if (Parent != null) Parent.Start(); }
