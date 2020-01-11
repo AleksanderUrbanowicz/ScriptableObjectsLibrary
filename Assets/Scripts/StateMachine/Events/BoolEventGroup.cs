@@ -8,6 +8,11 @@ namespace BaseLibrary.StateMachine
         public string id;
         public ScriptableEvent scriptableEventTrue;
         public ScriptableEvent scriptableEventFalse;
+
+        public BoolEventGroup()
+        {
+        }
+
         public BoolEventGroup(ScriptableEvent _scriptableEventTrue, ScriptableEvent _scriptableEventFalse)
         {
             scriptableEventTrue = _scriptableEventTrue;

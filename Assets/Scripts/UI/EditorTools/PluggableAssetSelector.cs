@@ -57,7 +57,7 @@ namespace BaseLibrary.UI
                     parameters = config.sprites.ToArray();
                     //Debug.LogError("UpdateParameters.sprites: " + parameters.Length);
                 }
-
+               
             }
 
         }
