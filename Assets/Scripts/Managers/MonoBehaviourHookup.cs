@@ -7,8 +7,7 @@ namespace BaseLibrary.Managers
 {
     public class MonoBehaviourHookup : MonoBehaviour
     {
-        public RaycastExecutor buildSystemRaycast;
-        public BuildPreviewExecutor buildPreviewExecutor;
+       
         
         public IMonoBehaviourable Parent;
         public void Awake() { if (Parent != null) Parent.MonoBehaviourAwake(); }

@@ -2,7 +2,7 @@
 
 namespace BaseLibrary.Managers
 {
-    public class ScriptableSingleton<T> : ScriptableMonoBehaviour where T : ScriptableMonoBehaviour
+    public class ScriptableSingleton<T,U> : ScriptableMonoBehaviour where T : ScriptableMonoBehaviour where U : MonoBehaviourHookup
     {
         private static T _instance;
         private static bool _instantiated;
@@ -26,7 +26,9 @@ namespace BaseLibrary.Managers
                 _instantiated = true;
                 var go = new GameObject(typeof(T).Name);
                 go.SetActive(false);
-                MonoBehaviourHookup monoBehaviourHookup = go.AddComponent<MonoBehaviourHookup>();
+                U monoBehaviourHookup = go.AddComponent<U>();
+
+               // MonoBehaviourHookup monoBehaviourHookup = go.AddComponent<MonoBehaviourHookup>();
                 monoBehaviourHookup.Parent = _instance;
                 _MonoBehaviour = monoBehaviourHookup;
                 DontDestroyOnLoad(_MonoBehaviour.gameObject);
