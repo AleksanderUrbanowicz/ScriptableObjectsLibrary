@@ -1,14 +1,11 @@
-﻿using GeneralImplementations.Data;
-using GeneralImplementations.Managers;
-using Managers;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace BaseLibrary.Managers
 {
     public class MonoBehaviourHookup : MonoBehaviour
     {
-       
-        
+
+
         public IMonoBehaviourable Parent;
         public void Awake() { if (Parent != null) Parent.MonoBehaviourAwake(); }
         public void Start() { if (Parent != null) Parent.Start(); }
