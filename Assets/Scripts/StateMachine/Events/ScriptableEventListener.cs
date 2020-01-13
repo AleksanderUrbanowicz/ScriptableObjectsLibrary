@@ -23,6 +23,15 @@ namespace BaseLibrary.StateMachine
             }
         }
 
+        public void Initialize(ScriptableEvent _event, UnityAction _response)
+        {
+
+            Response = new UnityEvent();
+            Event = _event;
+            Response.AddListener(_response);
+            Validate();
+        }
+
         private void OnDisable()
         {
             if (Event != null)
