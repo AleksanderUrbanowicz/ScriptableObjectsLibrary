@@ -5,7 +5,7 @@ namespace BaseLibrary.Data
 {
     public abstract class RuntimeCollection<T> : ScriptableObject
     {
-        public List<T> Items = new List<T>();
+        private List<T> Items = new List<T>();
 
         public void Add(T t)
         {
@@ -14,10 +14,7 @@ namespace BaseLibrary.Data
                 Items.Add(t);
 
             }
-            else
-            {
-
-            }
+          
 
         }
         public void Remove(T t)
@@ -27,11 +24,7 @@ namespace BaseLibrary.Data
                 Items.Remove(t);
 
             }
-            else
-            {
-
-
-            }
+           
 
         }
     }

@@ -71,8 +71,8 @@ namespace BaseLibrary.UI
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
-            var stringInList = attribute as PluggableAssetSelector;
-            var list = stringInList.Elements;
+            //var stringInList = attribute as PluggableAssetSelector;
+            var list = (attribute as PluggableAssetSelector).Elements;
             if (property.propertyType == SerializedPropertyType.String)
             {
 

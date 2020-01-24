@@ -8,70 +8,52 @@ namespace BaseLibrary.UI
     {
 
 
-        public List<PluggableColor> Colors;
-        public List<PluggableSprite> Sprites;
-        public List<PluggableFont> Fonts;
+        private List<PluggableColor> Colors;
+        private List<PluggableSprite> Sprites;
+        private List<PluggableFont> Fonts;
 
-        public Color defaultColor;
-        public Sprite defaultSprite;
-        public Font defaultFont;
-        private void OnEnable()
-        {
-
-
-
-        }
+        private Color defaultColor;
+        private Sprite defaultSprite;
+        private Font defaultFont;
+      
 
         public Color GetColor(string id)
         {
-            if (Colors.FirstOrDefault(x => x.id == id) == null)
+            PluggableColor pluggableColor = Colors.FirstOrDefault(x => x.id == id);
+            if (pluggableColor == null || pluggableColor.color == null)
             {
 
                 return defaultColor;
             }
 
-            Color c = Colors.FirstOrDefault(x => x.id == id).color;
-            if (c == null)
-            {
 
-                c = defaultColor;
-            }
-            return c;
+            return pluggableColor.color;
         }
 
         public Sprite GetSprite(string id)
         {
-            if (Sprites.FirstOrDefault(x => x.id == id) == null)
+            PluggableSprite pluggableSprite = Sprites.FirstOrDefault(x => x.id == id);
+            if (pluggableSprite == null || pluggableSprite.sprite == null)
             {
 
                 return defaultSprite;
             }
 
 
-            Sprite s = Sprites.FirstOrDefault(x => x.id == id).sprite;
-            if (s == null)
-            {
-
-                s = defaultSprite;
-            }
-            return s;
+            return pluggableSprite.sprite;
         }
 
         public Font GetFont(string id)
         {
-            if (Fonts.FirstOrDefault(x => x.id == id) == null)
+            PluggableFont pluggableFont = Fonts.FirstOrDefault(x => x.id == id);
+            if (pluggableFont == null || pluggableFont.font==null)
             {
 
                 return defaultFont;
             }
 
-            Font f = Fonts.FirstOrDefault(x => x.id == id).font;
-            if (f == null)
-            {
-
-                f = defaultFont;
-            }
-            return f;
+          
+            return pluggableFont.font;
         }
     }
 }

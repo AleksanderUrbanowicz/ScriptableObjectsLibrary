@@ -11,7 +11,7 @@ namespace BaseLibrary.StateMachine
 
         public BoolEventListener(string _id, Transform _parent, ScriptableEvent _eventTrue, UnityAction _responseTrue, ScriptableEvent _eventFalse, UnityAction _responseFalse)
         {
-
+            
             id = _id;
             scriptableEventListenerOnTrue = new GameObject(id + "True").AddComponent<ScriptableEventListener>();
             scriptableEventListenerOnTrue.gameObject.transform.parent = _parent;
@@ -26,8 +26,7 @@ namespace BaseLibrary.StateMachine
             scriptableEventListenerOnFalse.Event = _eventFalse;
             scriptableEventListenerOnFalse.Response.AddListener(_responseFalse);
             scriptableEventListenerOnFalse.Validate();
-
-
+           
         }
 
 

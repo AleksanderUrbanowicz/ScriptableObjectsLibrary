@@ -39,11 +39,7 @@ namespace BaseLibrary.StateMachine
             {
                 Response.Invoke();
             }
-            else
-            {
-
-
-            }
+           
         }
 
     }

@@ -9,7 +9,7 @@ namespace BaseLibrary.StateMachine
 
         public override bool Decide(StateControllerMBBase controller)
         {
-            bool countdownElapsed = controller.CheckIfCountDownElapsed(time / (controller.interval + 1));
+            bool countdownElapsed = controller.CheckIfCountDownElapsed(time / (controller.interval + 1.0f));
             return countdownElapsed;
         }
     }

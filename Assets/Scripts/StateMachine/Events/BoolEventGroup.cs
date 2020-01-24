@@ -12,11 +12,17 @@ namespace BaseLibrary.StateMachine
         public BoolEventGroup()
         {
         }
-
+        public BoolEventGroup(ScriptableEvent[] events)
+        {
+            scriptableEventTrue = events[0];
+            scriptableEventFalse = events[1];
+        }
+        /*
         public BoolEventGroup(ScriptableEvent _scriptableEventTrue, ScriptableEvent _scriptableEventFalse)
         {
             scriptableEventTrue = _scriptableEventTrue;
             scriptableEventFalse = _scriptableEventFalse;
         }
+    */
     }
 }
