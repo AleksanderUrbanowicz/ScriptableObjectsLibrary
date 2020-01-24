@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using BaseLibrary.Data;
+using System;
+using UnityEngine;
 
 namespace BaseLibrary.Managers
 {
@@ -6,6 +8,9 @@ namespace BaseLibrary.Managers
     {
         private static T _instance;
         private static bool _instantiated;
+
+        [NonSerialized]
+        public  SpawnableUIData spawnableUIData;
         public static T Instance
         {
             get
@@ -42,12 +47,12 @@ namespace BaseLibrary.Managers
             get
             {
 
-
-
                 var assets = Resources.FindObjectsOfTypeAll<T>();
                 return assets[0];
             }
         }
+
+        protected virtual SpawnableUIData SpawnableUIData { get => spawnableUIData; }
 
         protected static MonoBehaviour _MonoBehaviour;
         public static void CreateSingletonInstance() { ScriptableMonoBehaviour i = Instance; }
