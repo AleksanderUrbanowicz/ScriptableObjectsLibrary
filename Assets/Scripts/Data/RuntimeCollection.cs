@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace BaseLibrary.Data
+namespace BaseLibrary.DataContainers
 {
     public abstract class RuntimeCollection<T> : ScriptableObject
     {
         private List<T> Items = new List<T>();
 
-        public void Add(T t)
+        protected void Add(T t)
         {
             if (!Items.Contains(t))
             {
@@ -17,7 +17,7 @@ namespace BaseLibrary.Data
           
 
         }
-        public void Remove(T t)
+        protected void Remove(T t)
         {
             if (Items.Contains(t))
             {

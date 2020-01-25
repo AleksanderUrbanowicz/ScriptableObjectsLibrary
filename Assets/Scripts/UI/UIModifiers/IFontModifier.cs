@@ -1,4 +1,4 @@
-﻿namespace BaseLibrary.UI
+﻿namespace BaseLibrary.Interfaces
 {
     public interface IFontModifier : IUIModifier
     {

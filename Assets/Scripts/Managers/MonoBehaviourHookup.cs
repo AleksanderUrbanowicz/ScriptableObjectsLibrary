@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using BaseLibrary.Interfaces;
+using UnityEngine;
 
-namespace BaseLibrary.Managers
+namespace BaseLibrary.BaseAndAbstracts
 {
     public class MonoBehaviourHookup : MonoBehaviour
     {

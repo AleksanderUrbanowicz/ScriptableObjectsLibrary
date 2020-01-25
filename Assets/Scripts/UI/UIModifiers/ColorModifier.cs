@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BaseLibrary.Interfaces;
+using System;
 using UnityEngine;
 
 namespace BaseLibrary.UI

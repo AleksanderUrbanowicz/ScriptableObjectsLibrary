@@ -1,4 +1,4 @@
-﻿namespace BaseLibrary.Managers
+﻿namespace BaseLibrary.Interfaces
 {
     public interface IMonoBehaviourable
     {

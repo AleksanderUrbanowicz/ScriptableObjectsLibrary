@@ -1,7 +1,6 @@
 ﻿namespace BaseLibrary.Interfaces
 {
-    public interface IPluggableUI
+    public interface ISpawnableUIData
     {
-
     }
 }

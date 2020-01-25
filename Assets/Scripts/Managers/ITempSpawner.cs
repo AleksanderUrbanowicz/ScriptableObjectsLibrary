@@ -1,7 +1,7 @@
-﻿using GeneralImplementations.Data;
+﻿using Data;
 using UnityEngine;
 
-namespace BaseLibrary.Managers
+namespace BaseLibrary.Interfaces
 {
     public interface ITempSpawner : ISpawner
     {

@@ -1,8 +1,8 @@
-﻿using BaseLibrary.Data;
+﻿using BaseLibrary.DataContainers;
 using System;
 using UnityEngine;
 
-namespace BaseLibrary.Managers
+namespace BaseLibrary.BaseAndAbstracts
 {
     public class ScriptableSingleton<T, U> : ScriptableMonoBehaviour where T : ScriptableMonoBehaviour where U : MonoBehaviourHookup
     {
@@ -10,7 +10,7 @@ namespace BaseLibrary.Managers
         private static bool _instantiated;
 
         [NonSerialized]
-        public  SpawnableUIData spawnableUIData;
+        public SpawnableUIData spawnableUIData;
         public static T Instance
         {
             get

@@ -1,12 +1,7 @@
-﻿using BaseLibrary.Managers;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace BaseLibrary.Data
+﻿namespace BaseLibrary.Interfaces
 {
     public interface ISpawnableUI : ISpawnable
     {
-         void ToggleVisibility(bool b);
+        void ToggleVisibility(bool b);
     }
 }

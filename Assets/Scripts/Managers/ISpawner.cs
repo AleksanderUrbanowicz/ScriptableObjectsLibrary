@@ -1,6 +1,5 @@
-﻿using BaseLibrary.Data;
-using UnityEngine;
-namespace BaseLibrary.Managers
+﻿using UnityEngine;
+namespace BaseLibrary.Interfaces
 {
     public interface ISpawner
     {

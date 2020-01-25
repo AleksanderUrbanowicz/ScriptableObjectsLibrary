@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-namespace BaseLibrary.Data
+namespace BaseLibrary.Interfaces
 {
 
     public interface ISpawnable

@@ -1,17 +1,14 @@
-﻿using BaseLibrary.Data;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace BaseLibrary.Managers
+namespace BaseLibrary.Interfaces
 {
-    public interface IUISpawner 
+    public interface IUISpawner
     {
         void RegisterUI(ISpawnable _spawnableUIData);
         GameObject InstantiateUI(ISpawnable _spawnableUI);
 
 
-         void ToggleVisibility(string _id, bool b);
+        void ToggleVisibility(string _id, bool b);
 
     }
 

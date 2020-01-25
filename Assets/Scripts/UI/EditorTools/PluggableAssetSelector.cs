@@ -1,5 +1,5 @@
 ﻿
-using GeneralImplementations.Managers;
+using Managers;
 using System;
 using UnityEditor;
 using UnityEngine;

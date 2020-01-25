@@ -1,4 +1,6 @@
-﻿namespace BaseLibrary.UI
+﻿using BaseLibrary.UI;
+
+namespace BaseLibrary.Interfaces
 {
     public interface IUIModifier
     {
